@@ -25,9 +25,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [x] Why would you use class component over function components (removing hooks from the question)?
 
     - You would use class components over functional components if you had  a use case that required you to have more control over the components. With class components, you can use additional lifecycle methods to control if/when components mount.
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] Name three lifecycle methods and their purposes.
+
+    - componentDidMount - This lifecycle method gets called after the component is mounted. We can include our side effects here.
+    - componentDidUpdate - This method gets called anytime our state changes. It triggers a re-render of the page. We can use this when we want to update state.
+    - render - This gets called and tells React that there is information that needs to be rendered to the DOM.
+
+- [x] What is the purpose of a custom hook?
+
+    - A custom hook is used to allow developers to define stateful logic and abstract it so that it is reusuable in different places in our application.
+
+- [x] Why is it important to test our apps?
+
+    - It is important to test our apps because it allows us to write better code. It also serves as a way to document code. It allows us to think about edge cases, and it gives us a way to trust the code as our applications become more complex.
 
 ## Project Set Up
 
