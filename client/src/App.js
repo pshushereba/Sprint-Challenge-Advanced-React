@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 
 // Import components
-
+import Navbar from './components/Navbar.js';
 import PlayerList from './components/PlayerList.js';
 
 class App extends Component {
@@ -25,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         <PlayerList players={this.state.data} />
       </div>
     );
